@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  body{
+    background: #f9fafa;
+  }
+h1{
+
+  text-align: center;
+  color: white;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.box{
+  height: 200px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+  background-color: antiquewhite;
+  border-bottom: 2px solid red;
+}
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    .big-text {
+      font-size: 30px;  
+      color: rgb(16, 16, 17);      
+    }
+</style>
+<body>
+  <h1>Landing Page</h1>
+  <nav>
+    <ul>
+      <li><a href="https://www.flipkart.com/">Home</a></li>
+      <li><a href="https://www.google.com/">Contact</a></li>
+      <li><a href="https://www.amazon.com/">About</a></li>
+    </ul>
+  </nav>
+
+    <table border="1" width="1600" height="300">
+        <tr>
+            <th class="big-text">NETFLIX</th>
+            <th class="big-text">GOOGLE</th>
+            <th class="big-text">META</th>
+        </tr>
+        <tr>
+            <td>Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages</td>
+            <td>Google LLCis an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence</td>
+            <td>Meta Platforms, Inc. is an American multinational technology company headquartered in Menlo Park, California. Meta owns and operates several prominent social media platforms and communication services, including Facebook, Instagram, Threads, Messenger</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.Netflix.com/">Home</a></td>
+       <td><a href="https://www.google.com/">Home</a></td>
+      <td><a href="https://www.meta.com/">Home</a></td></tr>
+    </table>
+    <form action="",method="get">
+      <h2 style="text-align: center;">Login Form</h2>
+      <div class="box" style="margin: auto;" color =#62c7c2 >
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login"></div></form>
+</body>
+</html>
